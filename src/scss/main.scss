@@ -78,10 +78,61 @@ align-items: center;
     letter-spacing: normal;
     text-align: left;
 }
-.button__buy{
+.box__buy{
     width: 160px;
     height: 45px;
     border: solid 2px  #6c933e;
     border-radius: 22.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    margin-bottom: 28px;
 
+}
+.clic__buy{
+    color: #6c933e;
+    text-decoration: none;
+}
+.container{
+    background-color: #d9e4cc;
+    text-align: center;
+.container__text{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .container__title{
+        text-align: center;
+    }
+}
+.box__images{
+    
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-template-rows: repeat(3,200px);
+    padding: 20px;
+}
+.image{
+    width: 124px;
+    object-fit: contain;
+}
+.container__botton{
+    width: 185px;
+    height: 50px;
+    background-color:#6c933e ;
+    border: solid 2px #6c933e;
+    border-radius: 22.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+.botton__box{
+    display: flex;
+    justify-content: center;
+}
+    
+}
+.link__start{
+    text-decoration: none;
+    color: white;
 }
