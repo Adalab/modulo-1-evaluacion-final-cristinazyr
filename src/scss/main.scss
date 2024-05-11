@@ -57,11 +57,31 @@ align-items: center;
     justify-content: center;
     align-items: center;
 }
+.shop{
+    margin-top: 30px;
+    margin-inline: 20px;
+    list-style-type: none;
+}
 .shop__text{
     color: #6c933e;
     display: flex;
     flex-direction: column;
-    padding-inline: 20px;
-    padding-block: 20px;
+    font-size: 14px;
+}
+.shop__title{
+    font-size: 22px;
+    margin-block: 10px;
+}
+.shop__article{
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+}
+.button__buy{
+    width: 160px;
+    height: 45px;
+    border: solid 2px  #6c933e;
+    border-radius: 22.5px;
 
 }
