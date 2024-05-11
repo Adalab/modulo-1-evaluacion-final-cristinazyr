@@ -16,9 +16,11 @@
     background-size: cover;
     background-position: 85%;
     color: white;
+    padding-top: 0;
 }
 .menu__box{
 background-color:#6c933e ;
+position: fixed;
 width: 36px;
 height: 36px;
 display: flex;
@@ -29,19 +31,37 @@ align-items: center;
     width:12px ;
 }
 .header__text{
-    height: 600px;
+    height:90vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
     gap: 20px;
+    padding-inline: 20px;
 
 }
 .title{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 700;
 }
 .title__small{
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: center;
+}
+.arrow{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 22.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop__text{
+    color: #6c933e;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 20px;
+    padding-block: 20px;
+
 }
