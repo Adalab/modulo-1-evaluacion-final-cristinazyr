@@ -117,7 +117,10 @@ align-items: center;
 .clic__buy{
     color: #6c933e;
     text-decoration: none;
+    transition: transform 1s;
 }
+.clic__buy:hover{transform: translateY(-6PX)}
+
 .container{
     background-color: #d9e4cc;
     position: relative;
@@ -180,6 +183,10 @@ align-items: center;
 .link__start{
     text-decoration: none;
     color: white;
+    transition: transform 1s;
+}
+.link__start:hover{
+    transform: translateX(10px);
 }
 .arrow__up{
     height: 45px;
@@ -193,10 +200,19 @@ align-items: center;
     margin: 15px;
     top: 95%;
     position: absolute;
+    animation:  4s linear 0s infinite alternate rise;
 
     @media (min-width:768px) {
         top: 90%;
     }}
+    @keyframes rise{
+        from{
+            transform: translateY(-10px);
+        }
+        to{
+            transform: translateY(20px);
+        }
+    }
 
 .footer{
     background-color: #4a4a4a;
